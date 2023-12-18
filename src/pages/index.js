@@ -13,7 +13,7 @@ import GetStartedBanner from "../components/homepage/GetStartedBanner"
 import Footer from "../components/homepage/Footer"
 import BackToTopSection from "../components/common/BackToTopSection"
 
-LogRocket.init(process.env.GATSBY_LOGROCKET);
+LogRocket.init('mbkjpk/jira-wizard');
 
 const IndexPage = () => (
   <Layout>

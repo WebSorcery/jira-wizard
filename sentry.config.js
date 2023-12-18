@@ -3,7 +3,6 @@ import { BrowserTracing } from "@sentry/tracing";
 
 Sentry.init({
   dsn: process.env.GATSBY_SENTRY_DSN,
-  integrations: [new Sentry.BrowserTracing(), new Sentry.Replay()],
   // Performance Monitoring
   tracesSampleRate: 1.0, // Capture 100% of the transactions, reduce in production!
   // Session Replay
