@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react"
 import { Div, Container, Button } from "atomize"
 import upWordIcon from "../../images/icons/upWord.png"
+import { debounce } from "lodash"
+
 export default function BackToTopSection() {
   const [isVisible, setIsVisible] = useState(false)
 
-  const handleScroll = () => {
+  const handleScroll = debounce(() => {
     const scrollY = window.scrollY
     const threshold = 300
-
     setIsVisible(scrollY > threshold)
-  }
+  }, 100)
 
   const handleClick = () => {
     window.scrollTo({
