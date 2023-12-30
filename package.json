@@ -5,8 +5,9 @@
   "version": "0.1.0",
   "author": "Ankit Raj",
   "dependencies": {
-    "@sentry/gatsby": "^7.50.0",
+    "@sentry/gatsby": "^7.88.0",
     "@sentry/react": "^7.50.0",
+    "@sentry/tracing": "^7.38.0",
     "atomize": "^1.0.10",
     "axios": "^1.4.0",
     "crypto-js": "^4.1.1",
@@ -23,6 +24,7 @@
     "gatsby-source-filesystem": "^2.1.0",
     "gatsby-transformer-sharp": "^2.2.0",
     "js-cookie": "^3.0.5",
+    "logrocket": "^7.0.0",
     "prism-react-renderer": "^0.1.6",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",

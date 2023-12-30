@@ -1,4 +1,5 @@
 import React from "react"
+import LogRocket from 'logrocket';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,6 +12,8 @@ import DesignDevelopment from "../components/homepage/DesignDevelopment"
 import GetStartedBanner from "../components/homepage/GetStartedBanner"
 import Footer from "../components/homepage/Footer"
 import BackToTopSection from "../components/common/BackToTopSection"
+
+LogRocket.init('mbkjpk/jira-wizard');
 
 const IndexPage = () => (
   <Layout>
